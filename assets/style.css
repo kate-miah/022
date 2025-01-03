@@ -7,24 +7,23 @@ body {
 }
 
 .container {
-    height: 600px;
+    height: 500px;
     border: 2px solid black;
     display: flex;
-    flex-direction: row;    
-    justify-content: space-evenly;
-
+    flex-direction: column;  
+    justify-content: center;    
+    align-items: stretch;
 }
 
 .item {
-    width: 80px;
-    height: 80px;
+    /* width: 80px;
+    height: 80px; */
     background-color: teal;
     color: white;
     font-size: 2em;
     border: 1px solid red;
     text-align: center;
 }
-
 
 /* 
 Flexbox
@@ -39,7 +38,7 @@ Flex-direction - зміна напрямку головної осі (побіч
     row-reverse - головна горизонтально справо наліво
     column-reverse - головна вертикально знизу вверх
 
-Jusify-content - розташування дітей всередині батька-флекса вздовж головної осі
+Justify-content - розташування дітей всередині батька-флекса вздовж головної осі
     flex-start (default)
     center
     flex-end
@@ -48,7 +47,7 @@ Jusify-content - розташування дітей всередині бать
     space-evenly - рівномірний простір між усіма ..X..X..X..X..
 
 Across axis (побічна вісь)
-
+align-items
 
 Child
 
