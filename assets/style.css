@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    height: 600px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-evenly;
+
+}
+
+.item {
+    width: 80px;
+    height: 80px;
+    background-color: teal;
+    color: white;
+    font-size: 2em;
+    border: 1px solid red;
+    text-align: center;
+}
+
+
+/* 
+Flexbox
+
+Parent container: 
+Main axis (головна вісь)
+
+Flex-direction - зміна напрямку головної осі (побічна крутиться разом з нею)
+
+    row - головна горизонтальна зліва направо (default)
+    column - головна вертикальна зверху вниз
+    row-reverse - головна горизонтально справо наліво
+    column-reverse - головна вертикально знизу вверх
+
+Jusify-content - розташування дітей всередині батька-флекса вздовж головної осі
+    flex-start (default)
+    center
+    flex-end
+    space-between - перший на початку, останій вкінці, інші рівномірно меж ними Х..Х..Х..Х
+    space-around - один простір по боках і подвійний між іншими ..X....X....X....X..
+    space-evenly - рівномірний простір між усіма ..X..X..X..X..
+
+Across axis (побічна вісь)
+
+
+Child
+
+*/
