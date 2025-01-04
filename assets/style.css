@@ -12,8 +12,8 @@ body {
     border: 2px solid black;
     display: flex;
     flex-direction: row;  
-    justify-content: center;    
-    align-items: center;
+    justify-content: flex-start;    
+    align-items: flex-start;
 }
 
 .item {
@@ -25,6 +25,23 @@ body {
     border: 1px solid red;
     text-align: center;
 }
+
+.one {
+    
+}
+
+.two {
+    
+}
+
+.four {
+    margin-left: auto;
+}
+
+.six {
+    
+}
+
 /* Task:
 Зробити контейнер розміром в поний viewport івідцентрувати елемент всерелині рівно посередині */
 
@@ -56,6 +73,8 @@ align-items
     flex-start
     center
     flex-end
+
+Margin у flex нє схлопується
 
 Child
 
