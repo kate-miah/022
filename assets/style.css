@@ -11,10 +11,11 @@ body {
     width: 100vw;
     border: 2px solid black;
     display: flex;
-    flex-direction: column-reverse;  
-    justify-content: flex-end;    
+    /* flex-direction: row;  
+    flex-wrap: wrap; */
+    flex-flow: row wrap;
+    justify-content: flex-start;    
     /* align-items: stretch; */
-    flex-wrap: wrap-reverse;
     align-content: flex-start;
 }
 
