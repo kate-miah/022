@@ -11,9 +11,11 @@ body {
     width: 100vw;
     border: 2px solid black;
     display: flex;
-    flex-direction: row;  
-    justify-content: flex-start;    
-    align-items: flex-start;
+    flex-direction: column;  
+    justify-content: center;    
+    /* align-items: stretch; */
+    flex-wrap: wrap;
+    align-content: flex-start;
 }
 
 .item {
@@ -26,21 +28,7 @@ body {
     text-align: center;
 }
 
-.one {
-    
-}
 
-.two {
-    
-}
-
-.four {
-    margin-left: auto;
-}
-
-.six {
-    
-}
 
 /* Task:
 Зробити контейнер розміром в поний viewport івідцентрувати елемент всерелині рівно посередині */
@@ -68,11 +56,20 @@ Justify-content - розташування дітей всередині бат�
     space-evenly - рівномірний простір між усіма ..X..X..X..X..
 
 Across axis (побічна вісь)
-align-items
+
+align-items - вирівнювання дітей по побічній осі
     stretch
     flex-start
     center
     flex-end
+
+align-content - вирівнювання РЯДКІВ по побічній осі
+    stretch
+    flex-start
+    center
+    flex-end
+
+align-items та align-content -взаємо-конфліктують
 
 Margin у flex нє схлопується
 
